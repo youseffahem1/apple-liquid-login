@@ -1,0 +1,23 @@
+:root {
+  /* Core Palette - Light Mode */
+  --bg-base: #f5f5f7; /* Apple's signature light background */
+  --neon-cyan: #0071e3; /* Apple Blue */
+  --neon-purple: #bf48ce; /* Soft premium purple */
+  --text-primary: #1d1d1f; /* Apple dark text */
+  --text-secondary: #86868b; /* Apple gray text */
+  --error: #ff3b30;
+  --success: #34c759;
+
+  /* Glass Engine - Light Mode */
+  --glass-bg: rgba(255, 255, 255, 0.65);
+  --glass-border: rgba(255, 255, 255, 0.6);
+  --glass-highlight: rgba(255, 255, 255, 0.9);
+  --glass-shadow: 0 10px 40px rgba(0, 0, 0, 0.06),
+                  inset 0 1px 0 rgba(255, 255, 255, 1);
+  --glass-blur: blur(40px) saturate(180%);
+
+  /* Motion System */
+  --spring-soft: cubic-bezier(0.16, 1, 0.3, 1);
+  --spring-bouncy: cubic-bezier(0.34, 1.56, 0.64, 1);
+  --ease-cinematic: cubic-bezier(0.8, 0, 0.2, 1);
+}
